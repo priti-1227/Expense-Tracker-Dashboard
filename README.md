@@ -4,7 +4,7 @@ This project is powered by React.js and styled with Chakra UI, featuring a Conte
 
 🚀 Features
 Real-Time Expense Management: Effortlessly add, edit, or delete expenses.
-Dynamic Dashboard: Gain insights into your spending patterns through interactive charts.
+Dynamic Dashboard: Gain insights into your spending patterns through interactive charts. 
 Context API Integration: Leveraging React's Context API for efficient global state management, making the app more scalable and maintainable.
 Category Insights: Group your expenses into customizable categories for a more detailed analysis.
 Responsive & Accessible: Optimized for all devices, with light and dark mode support.
