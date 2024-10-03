@@ -4,7 +4,7 @@ import {
   Box,
   Divider,
   Flex,
-  HStack,
+  
   Image,
   Input,
   Progress,
@@ -12,15 +12,14 @@ import {
 } from "@chakra-ui/react";
 import React, { useState } from "react";
 import DataTable from "react-data-table-component";
-import usa from "../assets/flags/us.png";
+
 import { useThemeColors } from "../hook/useThemeColors";
 import { BsThreeDotsVertical } from "react-icons/bs";
 import avtar1 from "../assets/Avtar/avtar1.png";
 import avtar2 from "../assets/Avtar/avtar2.png";
 
 import figma from "../assets/Avtar/figma-label.png";
-import sketch from "../assets/Avtar/sketch-label.png";
-import social from "../assets/Avtar/social-label.png";
+
 
 function ProjectTable() {
   const { bgColor, textColor } = useThemeColors();

@@ -2,12 +2,12 @@ import {
   Box,
   Grid,
   GridItem,
-  Icon,
+  
   Image,
   List,
   ListItem,
   Text,
-  useColorMode,
+  
 } from '@chakra-ui/react'
 import React from 'react'
 
@@ -16,7 +16,7 @@ import {
   MdOutlineKeyboardArrowDown,
   MdOutlineKeyboardArrowUp,
 } from 'react-icons/md'
-import { PiTicketThin } from 'react-icons/pi'
+
 import { CiMail } from 'react-icons/ci'
 import { RiLink } from 'react-icons/ri'
 import chart2 from '../assets/cardImages/chart2.png'
@@ -32,7 +32,7 @@ import { LuUsers } from 'react-icons/lu'
 import { IoWarningOutline } from 'react-icons/io5'
 import { IoBanOutline } from 'react-icons/io5'
 
-import { color } from 'framer-motion'
+
 
 // import { dataList, totalEarning } from "../../src/data/data";
 
@@ -96,7 +96,7 @@ function Sales() {
   const {
     bgColor,
     textColor,
-    borderColor,
+   
     grayText,
     cyanIconBg,
     purpleIconBg,

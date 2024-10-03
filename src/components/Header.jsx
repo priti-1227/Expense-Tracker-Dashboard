@@ -1,17 +1,13 @@
 import {
   Avatar,
   AvatarBadge,
-  Box,
+ 
   HStack,
-  Hide,
-  Icon,
-  Image,
+  
   Input,
   Show,
   Stack,
-  background,
-  border,
-  color,
+ 
   useColorMode,
 } from "@chakra-ui/react";
 import React, { useState } from "react";
@@ -27,7 +23,7 @@ import { IoMoonOutline } from "react-icons/io5";
 import { RiComputerLine } from "react-icons/ri";
 import NotificationIcon from "./Shared/NotificationIcon";
 import { useThemeColors } from "../hook/useThemeColors";
-import SideBar from "./SideBar";
+
 function Header() {
   const { colorMode, setColorMode } = useColorMode();
   const { bgColor, textColor } = useThemeColors();

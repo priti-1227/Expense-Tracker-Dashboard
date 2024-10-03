@@ -1,9 +1,9 @@
-import { Box, Container, Flex, useColorMode } from '@chakra-ui/react'
+import { Box, Flex, useColorMode } from '@chakra-ui/react'
 import React from 'react'
 import Header from './Header'
 import MainContent from '../sections/MainContent'
 import Sales from './Sales'
-import SliderContainer from './Shared/SliderContainer'
+
 import ExpenseForm from './ExpenseForm'
 import SideBar from './SideBar'
 

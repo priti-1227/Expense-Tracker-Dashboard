@@ -5,37 +5,19 @@ import {
   AccordionItem,
   AccordionPanel,
   Box,
-  Button,
-  Drawer,
-  DrawerBody,
-  DrawerCloseButton,
-  DrawerContent,
-  DrawerFooter,
-  DrawerHeader,
-  DrawerOverlay,
-  Flex,
+
   HStack,
   Heading,
   IconButton,
   Image,
-  Input,
-  Link,
+  
   List,
-  ListIcon,
+  
   ListItem,
   Show,
-  useColorMode,
-  useDisclosure,
+  
 } from "@chakra-ui/react";
 import React, { useState } from "react";
-import {
-  FaHome,
-  FaInfo,
-  FaTools,
-  FaEnvelope,
-  FaUnlock,
-  FaLock,
-} from "react-icons/fa";
 import logo from "../assets/Logo.svg";
 import { LuCircle } from "react-icons/lu";
 import { LuCircleDot } from "react-icons/lu";
@@ -54,13 +36,13 @@ import { FiSettings } from "react-icons/fi";
 import { useThemeColors } from "../hook/useThemeColors";
 
 function SideBar() {
-  const { bgColor, textColor, borderColor, grayText } = useThemeColors();
+  const { bgColor, textColor } = useThemeColors();
   const [isSidebarLocked, setIsSidebarLocked] = useState(false);
 
   const toggleSidebarLock = () => {
     setIsSidebarLocked((prev) => !prev);
   };
-  const btnRef = React.useRef();
+  // const btnRef = React.useRef();
 
   const items = [
     { icon: TbSmartHome, label: "Dashboard", link: "#" },
