@@ -6,7 +6,7 @@ import FilterComponent from './Shared/FilterComponent'
 
 function ExpenseList() {
   const { bgColor, textColor, grayText } = useThemeColors()
-  const { state, dispatch } = useContext(ExpenseContext)
+  const { state } = useContext(ExpenseContext)
 
   const [filterData, setFilterData] = useState(state.expenses)
   console.log('filterData: ', filterData)

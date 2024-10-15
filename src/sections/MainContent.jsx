@@ -1,6 +1,5 @@
 import React from 'react'
 import {
-  AbsoluteCenter,
   Box,
   Center,
   Divider,
@@ -8,23 +7,16 @@ import {
   Grid,
   GridItem,
   Heading,
-  Icon,
-  Image,
+  
   List,
-  ListIcon,
+  
   ListItem,
   Progress,
-  Table,
-  Tbody,
-  Td,
+ 
   Text,
-  Th,
-  Thead,
-  Tr,
-  useColorMode,
+  
 } from '@chakra-ui/react'
-import card1 from '../assets/cardImages/card1.png'
-import CirculatBar from '../assets/cardImages/CircularBar.png'
+
 import { BsCart3 } from 'react-icons/bs'
 import { FaRegCircleCheck } from 'react-icons/fa6'
 import { FaRegClock } from 'react-icons/fa6'
@@ -42,10 +34,9 @@ import {
   AreaChart,
   Area,
   XAxis,
-  CartesianGrid,
+ 
   Tooltip,
   ResponsiveContainer,
-  YAxis,
 } from 'recharts'
 import CircularProgressBar from '../components/Shared/CircularProgress'
 import SliderContainer from '../components/Shared/SliderContainer'

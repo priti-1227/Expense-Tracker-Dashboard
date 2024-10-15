@@ -1,13 +1,10 @@
 import React from 'react'
-import SideBar from './components/SideBar'
-
-import { ChakraProvider, Flex } from '@chakra-ui/react'
 import Main from './components/Main'
 import Layout from './components/Layout'
 import { ExpenseProvider } from './context/ExpenseProvider'
 import Login from './components/Login'
 import { AuthProvider } from './context/AuthContext'
-import { BrowserRouter, Route, Router, Routes } from 'react-router-dom'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import PrivateRoute from './components/PrivateRoute'
 
 const App = () => {
